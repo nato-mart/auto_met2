@@ -1,0 +1,14 @@
+Met Self Briefing System
+Version 2.0
+This site is best viewed using MOZILLA Firefox
+User: Not logged in
+Fetching time ...
+NOTICE - Please be advised that the NEW phone number for Aviation Briefings from the Met Éireann Aviation Forecaster is 1570 476 400
+WARNING - Due to essential maintenance being carried out on Monday 26th January from 1000Z to 1200Z, there may be some short outages during this period. Note you may need to LOGIN again.
+Authentication
+Username:
+Password: NB: By using this website and allowing COOKIES to remain enabled, you consent to the processing of data about you by Met Eireann(i.e. primarily to help the website manage visitor sessions -but also for the purpose of evaluating your use of the website and compiling reports on website activity).
+Times indicated in forecasts and reports are UTC.
+  Privacy Policy
+Contact and Support: Senior Met Officer, Met Éireann, Aviation Services Division, Shannon Airport, Co. Clare, Ireland. Tel. +353 61 712950 briefing@met.ie
+© The material on this site is Met Éireann copyright. The name Met Éireann and the Met Éireann logo are registered trademarks.

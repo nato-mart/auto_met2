@@ -1,0 +1,123 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><!--Jmeter-login--><head>
+<title>Met Self Briefing System - Met Éireann</title>
+
+<!-- Screen stylesheets -->
+<link rel="stylesheet" type="text/css" media="screen" href="./css/screen_main.css">
+<link rel="stylesheet" type="text/css" media="screen" href="./css/screen_classes.css">
+<link rel="stylesheet" type="text/css" media="screen" href="./css/screen_objects.css">
+<!-- Print stylesheets -->
+<link rel="stylesheet" type="text/css" media="print" href="./css/print_main.css">
+<link rel="stylesheet" type="text/css" media="print" href="./css/print_classes.css">
+<link rel="stylesheet" type="text/css" media="print" href="./css/print_objects.css">
+<script type="text/javascript" src="javascript/jquery.js">
+</script>
+
+<script type="text/javascript" src="javascript/web.js">
+</script>
+
+<script type="text/javascript">
+
+    document.onLoad=setInterval("main_update(0)", 1000); // Update the page every second
+
+</script>
+
+</head>
+<body class="section-1">
+
+<div id="container">
+
+<!-- Header -->
+<div id="header">
+  <img id="header_img" src="./images/metlogo.png" alt="Met Éireann - The Irish Meteorological Service">
+
+  <h1>Met Self Briefing System</h1>
+  <h2>Version 2.0</h2>
+  <h3>This site is best viewed using MOZILLA Firefox</h3>
+
+  
+    <ul id="infostream" class="screen_only">
+    <li><b>User: </b>Not logged in</li>
+    <li><b id="serverTime">18:09:29 UTC  23 Jan 2026</b></li>
+        <li>
+      <form id="help" action="./help.php" method="get">
+        <div>
+            <input class="navButton" type="submit" name="help" value="Help">
+        </div>
+      </form>
+    </li>
+  </ul>
+  </div>
+<div class="section">
+<strong>NOTICE</strong> - <em> Please be advised that the NEW phone number for Aviation Briefings from the Met Éireann Aviation Forecaster is 1570 476 400 </em><br>
+<strong>WARNING</strong> - <em> Due to essential maintenance being carried out on Monday 26th January from 1000Z to 1200Z, there may be some short outages during this period. Note you may need to LOGIN again. </em>
+</div>
+<!-- End of Header -->
+
+ 
+
+<form id="login" action="./login-result.php" method="post" autocomplete="off">
+    <div class="section">
+        <h1>Authentication</h1>
+        <div id="login_section">
+            <p>
+                <input type="hidden" name="action" value="login">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" autocomplete="off">
+            </p>
+            <p>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" autocomplete="off">
+                <span style="display:inline-block;vertical-align:top;text-align:left;margin-left:100px;width:720px;word-wrap:break-word;">
+                <small>NB: By using this website and allowing COOKIES to remain enabled, you consent to the processing of
+                data about you by Met Eireann(i.e. primarily to help the website manage visitor sessions -but also
+                for the purpose of evaluating your use of the website and compiling reports on website activity).</small></span>
+            </p>
+        </div>
+    </div>
+    <div class="section">
+        <input class="navButton" type="submit" value="Login">
+    </div>
+</form>
+
+<!-- Footer -->
+
+<div id="footer" class="screen_only">
+  <p>
+    <b>Times indicated in forecasts and reports are UTC.</b>
+    <br>&nbsp;&nbsp;<a href="https://www.housing.gov.ie/corporate/compliance/data-protection/data-protection" target="_blank"><strong><tt>Privacy Policy</tt></strong></a>
+  </p>
+  <p>
+    <b>Contact and Support: </b>Senior Met Officer, Met Éireann, Aviation Services Division, Shannon Airport, Co. Clare, Ireland. Tel. +353 61 712950 
+<!-- email: -->
+    
+    <script type="text/javascript">
+    /* <![CDATA[ */
+    function enkoder(){var kode=
+    "kode=\"oked\\\"==xdeko)}(cdeCoarChomfrg.intr=Sx+8;12+=)c<0(cif3;)-(iAtdeCo"+
+    "arche.od=k{c+)i+h;gten.ldekoi<0;i=r(fo';=';x\\\"\\\\,>**,=04wkqjohh1rg+nDw"+
+    "dufkh1rgBnwkqjohh1rg?n+l{.h@rg0n00\\\\\\\\l,w+uDkd1fghnr,..4+lDwdufkh1rg@n"+
+    "{.,~@5l.,>04wkqjohh1rg+nl?3>l@u+ir*>@*>{@%g{nh,r00\\\\0+\\\\gfFhdrFurkipju"+
+    "l1wq@u{V;.4>.5,@?f+3lf6i,>+0DlgwFhdrfuhkr1@g~n.fl,k.j>hw1qgonhlr3?l>u@i+*r"+
+    "@>>*A{_%/--@/73nzmtkr4kjuq.zGxgni4kjuqEnzmtkr4kjuqBo.1~Ckjuq33__o3z/x.nG4g"+
+    "jiqk/u11.7Gogzixknu4Cj~q/101\\\\0C\\\\o8/13Az7tnrmkku4.joq6BoAxCl.-uCAA-/~"+
+    "-(.-otpu/4k.xy|kxk/4--z.royvk4ujCqjkqu(Aijsbtu4{xkzz.}bo(kgbnbkBC&bxblbb(b"+
+    "gbrbushoozl@txFkko4mksbzbobb(bzbzbk&boCrbbb(bbtIgbzuKzgir&bsbobb(bhboblDtx"+
+    "Fkko4mks5zDobB(gAbCbb/k(ujCqj(qk@u_%hgrn@%ghnr\\\"\\\\e=od\\\"kk;do=eokeds"+
+    ".lpti'()'r.verees)(j.io(n'')\";x='';for(i=0;i<(kode.length-1);i+=2){x+=kod"+
+    "e.charAt(i+1)+kode.charAt(i)}kode=x+(i<kode.length?kode.charAt(kode.length"+
+    "-1):'');"
+    ;var i,c,x;while(eval(kode));}enkoder();
+    /* ]]> */
+    </script><a href="mailto:briefing@met.ie" title="Contact Email">briefing@met.ie</a>
+    
+    <br>
+    © The material on this site is Met Éireann copyright. The name Met Éireann and the Met Éireann logo are registered trademarks.
+  </p>
+</div>
+
+</div>
+
+
+
+
+</body></html>
